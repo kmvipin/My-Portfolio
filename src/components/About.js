@@ -20,7 +20,7 @@ const About = () => {
             <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
               <div className="sm:text-right text-4xl font-bold">
                 <p>
-                  Hi. I'm Taminoturoko Briggs, nice to meet you. Please take a
+                  Hi. I'm Vipin, nice to meet you. Please take a
                   look around.
                 </p>
               </div>
@@ -28,10 +28,14 @@ const About = () => {
                 <p>
                   {" "}
                   A software developer with experience in building Responsive
-                  and Scalable Web apps. I am well-knowledged in UI/UX
-                  principles and practices. In addition to software development,
-                  I am also a technical writer--simplifying topics/concepts on
-                  the web.
+                  and Scalable Web apps. My passion has evolved towards creating dynamic
+                  web applications. Currently, I have 1 year of experience and specialize 
+                  in technologies like Java, SpringBoot, Spring Data MongoDB, Spring JDBC, 
+                  Spring REST, React, MongoDB, and MySQL. My journey began with a focus on Java,
+                  SpringBoot, React, and MySQL, allowing me to seamlessly transition between design
+                  and development. This diverse skill set empowers me to deliver engaging and efficient
+                  solutions in the ever-evolving landscape of web technologies.
+
                 </p>
               </div>
             </div>
