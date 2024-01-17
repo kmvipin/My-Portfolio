@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.70bd658e.css",
+    "main.js": "/My-Portfolio/static/js/main.da653a62.js",
+    "static/media/CodeHere.png": "/My-Portfolio/static/media/CodeHere.d14c31a1df2bedb5779a.png",
+    "static/media/Header_logo.png": "/My-Portfolio/static/media/Header_logo.18b27042ddbfd5040857.png",
+    "static/media/default.png": "/My-Portfolio/static/media/default.991831d0a626b3b8e8b3.png",
+    "index.html": "/My-Portfolio/index.html",
+    "main.70bd658e.css.map": "/My-Portfolio/static/css/main.70bd658e.css.map",
+    "main.da653a62.js.map": "/My-Portfolio/static/js/main.da653a62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70bd658e.css",
+    "static/js/main.da653a62.js"
+  ]
+}
