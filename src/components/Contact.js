@@ -10,9 +10,12 @@ const Contact = () => {
   const formsPreeApi = process.env.REACT_APP_FORMSPREE_BASE_API;
 
   const sendMessage=async ()=>{
-      if(!validator.isEmail(email) || validator.isEmpty(name) || 
-      validator.isEmpty(message)){
-          console.error('not a valid email');
+      if(!validator.isEmail(email)){
+          toast.error("Not A Valid Email")
+          return;
+      }
+      else if(validator.isEmpty(name) || validator.isEmpty(message)){
+          toast.error("Name and Message Must Not Be Empty");
           return;
       }
 
