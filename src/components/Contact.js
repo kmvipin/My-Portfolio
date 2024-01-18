@@ -11,7 +11,7 @@ const Contact = () => {
 
   const sendMessage=async ()=>{
       if(!validator.isEmail(email)){
-          toast.error("Not A Valid Email")
+          toast.error("Not A Valid Email");
           return;
       }
       else if(validator.isEmpty(name) || validator.isEmpty(message)){
