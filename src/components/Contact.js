@@ -7,7 +7,7 @@ const Contact = () => {
   const [name,setName] = useState('');
   const [email,setEmail] = useState('');
   const [message, setMessage] = useState('');
-  const formsPreeApi = process.env.FORMSPREE_BASE_API;
+  const formsPreeApi = process.env.REACT_APP_FORMSPREE_BASE_API;
 
   const sendMessage=async ()=>{
       if(!validator.isEmail(email) || validator.isEmpty(name) || 
