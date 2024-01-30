@@ -1,6 +1,7 @@
 import React from 'react';
 import code from '../assets/default.png';
 import codeHere from '../assets/CodeHere.png';
+import chatroom from '../assets/chatroom.png';
 
 const Projects = () => {
 
@@ -9,6 +10,12 @@ const Projects = () => {
     description : 'CodeHere Built On Springboot, React and MongoDB',
     image: codeHere,
     demo: 'https://init-codehere.netlify.app',
+    code : '/'
+  },{
+    name : 'ChatRoom',
+    description : 'ChatRoom Built on React and tailwind css',
+    image : chatroom,
+    demo: 'https://kmvipin.github.io/ChatRoom',
     code : '/'
   },{
     name : 'AV_Service',
@@ -37,7 +44,7 @@ const Projects = () => {
           {projects.map((value,key)=>(
             <div
               key={key}
-              style={{backgroundImage: `url(${value.image})`, backgroundSize:'auto 200px'}}
+              style={{backgroundImage: `url(${value.image})`, backgroundSize: "contain"}}
               className='shadow-lg shadow-[#040c16] rounded-md bg-no-repeat bg-center 
               flex justify-center items-center mx-auto bg-black mb-5 group md:h-[300px] md:w-[350px] h-[250px] w-[300px]'
             >
